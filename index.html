@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
+  {{> head }}
+
   <body class="p-8">
-    <h1 class="text-4xl font-bold">HTML Starter</h1>
+    {{> alpine-counter }}
 
-    <p class="mt-4 text-lg">Add new components to /components</p>
-
-    <script type="module" src="/main.js"></script>
-</body>
+    {{> body }}
+  </body>
 </html>
